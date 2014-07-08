@@ -3,8 +3,23 @@
 <head>
     <title>{{ page.title }}</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/terminus.css">
+    <link href='http://fonts.googleapis.com/css?family=Jura:400,600|Cabin:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    {{ content }}
+    <div class="header">
+        <div class="logo" id="mainlogo">
+            <h1><a href="/index.html">terminus</a></h1>
+            <h2><a href="/index.html">data science, <span style="font-variant: small-caps">llc</span></a></h2>
+        </div>
+    </div>
+
+    <div id="container">
+        {{ content }}
+    </div>
+
+    <div class="footer logo">
+        <h6><a href="/index.html">&copy; 2014 dwt | terminus data science, LLC</a></h6>
+    </div>
 </body>
 </html>
