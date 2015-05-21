@@ -10,7 +10,7 @@ body {
     text-align: center;
     clear: both;
     font-family: "Jura", sans-serif;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .footer h6 {
@@ -85,11 +85,33 @@ a:visited {
     color: purple;
 }
 
+.postlist {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.post {
+    background-color: #fefedd;
+    padding: 10px;
+}
+
+a.title {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18pt;
+}
+
+.date {
+    font-size: 12pt;
+    color: #cccccc;
+}
+
 .pager {
     width: 280px;
     margin: 25px auto;
     padding: 10px;
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 .next {

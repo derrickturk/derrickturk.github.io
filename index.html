@@ -8,14 +8,12 @@ infrequently updated blog of Derrick W. Turk of <a
 href="https://www.terminusdatascience.com" class="branding">terminus data
 science, LLC</a>.
 
-<p>This is page {{ paginator.page }}.
-
 <div class="postlist">
     {% for post in paginator.posts %}
       <div class="post">
           <a href="{{ post.url }}" class="title">{{ post.title }}</a>
-          {{ post.date }}
-          {{ post.exerpt }}
+          <p class="date">{{ post.date | date_to_string }}
+          <div class="exerpt">{{ post.exerpt }}</div>
       </div>
     {% endfor %}
 </div>
