@@ -10,7 +10,7 @@ body {
     text-align: center;
     clear: both;
     font-family: "Jura", sans-serif;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .footer h6 {
@@ -85,10 +85,11 @@ a:visited {
     color: purple;
 }
 
-div.pager {
+.pager {
     width: 280px;
     margin: 25px auto;
     padding: 10px;
+    font-size: 18pt;
 }
 
 .next {
