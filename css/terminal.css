@@ -41,7 +41,7 @@ body {
     font-size: 20pt;
 }
 
-.branding {
+.branding, .pager, .title {
     font-family: "Jura", sans-serif;
 }
 
@@ -83,4 +83,22 @@ a {
 
 a:visited {
     color: purple;
+}
+
+div.pager {
+    width: 280px;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+.next {
+    float: left;
+}
+
+.previous {
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
