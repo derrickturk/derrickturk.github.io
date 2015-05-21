@@ -88,12 +88,16 @@ a:visited {
 .postlist {
     width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding: 10px 0 0;
 }
 
 .post {
     background-color: #fefedd;
     padding: 10px;
+}
+
+.post + .post {
+    margin-top: 20px;
 }
 
 a.title {
@@ -103,8 +107,8 @@ a.title {
 }
 
 .date {
-    font-size: 12pt;
-    color: #cccccc;
+    font-size: 14pt;
+    color: #777777;
 }
 
 .pager {
