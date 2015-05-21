@@ -9,6 +9,13 @@ href="https://www.terminusdatascience.com" class="branding">terminus data
 science, LLC</a>.
 
 <div class="postlist">
+    <p>My posts:
+    <ul>
+    {% for post in site.posts %}
+    <li>{{ post.title }}
+    {% endfor %}
+    </ul>
+
     {% for post in paginator.posts %}
       <div class="post">
           <a href="{{ post.url }}" class="title">{{ post.title }}</a>
