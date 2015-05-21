@@ -30,18 +30,11 @@ body {
 }
 
 #mainlogo {
+    font-size: 36pt;
     float: left;
 }
 
-.logo h1 {
-    font-size: 36pt;
-}
-
-.logo h2 {
-    font-size: 20pt;
-}
-
-.branding, .pager, .title {
+.logo, .branding, .pager, .title {
     font-family: "Jura", sans-serif;
 }
 
@@ -55,7 +48,7 @@ body {
     text-decoration: inherit;
 }
 
-#container h3, h4, h5 {
+h3, h4, h5 {
     font-weight: normal;
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
@@ -103,11 +96,9 @@ a:visited {
 a.title {
     text-decoration: none;
     color: inherit;
-    font-size: 18pt;
 }
 
 .date {
-    font-size: 14pt;
     color: #777777;
 }
 

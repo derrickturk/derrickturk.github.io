@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    {% include commonhead.html %}
+</head>
+<body>
+    {% include header.html %}
+
+    <h2 class="title">{{ title }}</h2>
+    <h3 class="date">{{ date }}</h3>
+
+    <div id="container">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+</body>
+</html>
