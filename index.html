@@ -1,6 +1,6 @@
 ---
 layout: default
-title: terminal velocity | the blog of derrick w. turk @ terminus data science, LLC
+title: terminal velocity | the blog of derrick w. turk @ terminus data science, LLC | Page {{ paginator.page }}
 ---
 
 Welcome to <span class="branding">terminal velocity</span>, the very
@@ -9,17 +9,10 @@ href="https://www.terminusdatascience.com" class="branding">terminus data
 science, LLC</a>.
 
 <div class="postlist">
-    <p>My posts:
-    <ul>
-    {% for post in site.posts %}
-    <li>{{ post.title }}
-    {% endfor %}
-    </ul>
-
     {% for post in paginator.posts %}
       <div class="post">
           <a href="{{ post.url }}" class="title">{{ post.title }}</a>
-          {{ post.date | date_to_string }}
+          {{ post.date }}
           {{ post.exerpt }}
       </div>
     {% endfor %}
