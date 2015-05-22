@@ -11,7 +11,7 @@ science, LLC</a>.
 <div class="postlist">
     {% for post in paginator.posts %}
       <div class="post">
-          <h2><a href="{{ post.url }}" class="title">{{ post.title }}</a></h2>
+          <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
           <h3 class="date">{{ post.date | date: "%B %-d, %Y" }}</h3>
           <div class="excerpt">{{ post.excerpt }}</div>
       </div>
