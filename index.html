@@ -21,7 +21,7 @@ science, LLC</a>.
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path }}" class="next">Older</a>
     {% else %}
-      <span class="next">Older</span>
+      <span class="next inactive">Older</span>
     {% endif %}
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
@@ -30,7 +30,7 @@ science, LLC</a>.
         <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
       {% endif %}
     {% else %}
-      <span class="previous">Newer</span>
+      <span class="previous inactive">Newer</span>
     {% endif %}
     <div class="clear"></div>
 </div>

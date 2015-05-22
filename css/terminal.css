@@ -122,6 +122,10 @@ a:visited {
     float: right;
 }
 
+.inactive {
+    color: #777777;
+}
+
 .clear {
     clear: both;
 }

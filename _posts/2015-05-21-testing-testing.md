@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Testing, testing...
-excerpt: is this thing on?
+excerpt: terminal velocity is up and running!
 ---
 
-Frist pots!
-
-Lorem ipsum and so forth.
+Welcome, and thanks for coming! Now that the infrastructure is working, I hope
+to write something of actual substance here soon.
