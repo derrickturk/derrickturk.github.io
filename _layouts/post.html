@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} | terminal velocity</title>
     {% include commonhead.html %}
 </head>
 <body>
@@ -9,7 +9,7 @@
 
     <div id="container">
         <h2 class="title">{{ page.title }}</h2>
-        <h3 class="date">{{ page.date }}</h3>
+        <h3 class="date">{{ page.date | date: "%B %-d, %Y" }}</h3>
         {{ content }}
     </div>
 
