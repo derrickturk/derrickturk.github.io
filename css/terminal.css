@@ -30,11 +30,11 @@ body {
 }
 
 #mainlogo {
-    font-size: 36pt;
+    font-size: 14pt;
     float: left;
 }
 
-.logo, .branding, .pager, .title {
+.logo, .branding, .pager {
     font-family: "Jura", sans-serif;
 }
 
@@ -48,7 +48,7 @@ body {
     text-decoration: inherit;
 }
 
-h3, h4, h5 {
+h3, h4, h5, .title {
     font-weight: normal;
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }

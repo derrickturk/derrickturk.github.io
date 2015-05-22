@@ -7,10 +7,9 @@
 <body>
     {% include header.html %}
 
-    <h2 class="title">{{ title }}</h2>
-    <h3 class="date">{{ date }}</h3>
-
     <div id="container">
+        <h2 class="title">{{ page.title }}</h2>
+        <h3 class="date">{{ page.date }}</h3>
         {{ content }}
     </div>
 
