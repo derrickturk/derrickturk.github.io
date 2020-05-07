@@ -3,34 +3,5 @@ layout: default
 title: terminal velocity | the blog of derrick w. turk @ terminus data science, LLC
 ---
 
-Welcome to <span class="branding">terminal velocity</span>, the very
-infrequently updated blog of Derrick W. Turk of <a
-href="https://www.terminusdatascience.com" class="branding">terminus data
-science, LLC</a>.
-
-<div class="postlist">
-    {% for post in paginator.posts %}
-      <div class="post">
-          <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <h3 class="date">{{ post.date | date: "%B %-d, %Y" }}</h3>
-          <div class="excerpt">{{ post.excerpt }}</div>
-      </div>
-    {% endfor %}
-</div>
-<div class="pager">
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Older</a>
-    {% else %}
-      <span class="next inactive">Older</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a href="{{ site.baseurl }}" class="previous">Newer</a>
-      {% else %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
-      {% endif %}
-    {% else %}
-      <span class="previous inactive">Newer</span>
-    {% endif %}
-    <div class="clear"></div>
-</div>
+This place is dead! My blog now lives on its own site at
+<a href="https://usethe.computer">usethe.computer</a>.
